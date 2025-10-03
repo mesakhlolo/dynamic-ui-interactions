@@ -1,0 +1,11 @@
+body {
+  font-family: "JetBrains Mono", monospace;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown-menu.active {
+  display: block;
+}
