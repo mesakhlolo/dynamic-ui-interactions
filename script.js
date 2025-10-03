@@ -1,6 +1,16 @@
-const dropdownButton = document.querySelector(".dropdown-trigger");
-const dropdownMenu = document.querySelector(".dropdown-menu");
+function initDropdowns() {
+  const dropdowns = document.querySelectorAll(".dropdown");
 
-dropdownButton.addEventListener("click", function () {
-  dropdownMenu.classList.toggle("active");
-});
+  dropdowns.forEach(function (dropdown) {
+    const trigger = dropdown.querySelector(".dropdown-trigger");
+    const menu = dropdown.querySelector(".dropdown-menu");
+
+    if (!trigger || !menu) return;
+
+    trigger.addEventListener("click", function () {
+      menu.classList.toggle("visible");
+    });
+  });
+}
+
+initDropdowns();

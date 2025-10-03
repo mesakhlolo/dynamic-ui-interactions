@@ -6,6 +6,6 @@ body {
   display: none;
 }
 
-.dropdown-menu.active {
+.dropdown-menu.visible {
   display: block;
 }
