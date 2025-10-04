@@ -1,3 +1,4 @@
+// dropdown
 function initDropdowns() {
   const dropdowns = document.querySelectorAll(".dropdown");
 
@@ -14,3 +15,8 @@ function initDropdowns() {
 }
 
 initDropdowns();
+
+// image carousel
+function goToSlide() {}
+function nextSlide() {}
+function prevSlide() {}

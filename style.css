@@ -2,6 +2,7 @@ body {
   font-family: "JetBrains Mono", monospace;
 }
 
+/* Dropdown Menu */
 .dropdown-menu {
   display: none;
 }
@@ -9,3 +10,5 @@ body {
 .dropdown-menu.visible {
   display: block;
 }
+
+/* Image Carousel */
